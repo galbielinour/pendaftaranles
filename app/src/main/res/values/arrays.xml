@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="materi">
+        <item>Basic Catwalk</item>
+        <item>Catwalk Pose and Expression</item>
+        <item>Photo Session</item>
+        <item>Pengembangan Pribadi</item>
+        <item>Tata Rias</item>
+    </string-array>
+</resources>

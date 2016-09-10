@@ -13,6 +13,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.tugas01.xirpl5012.pendaftaranles.MainActivity">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/LinearLayout">
+
     <TextView
         android:layout_width="350dp"
         android:layout_height="40dp"
@@ -29,7 +35,8 @@
         android:layout_below="@+id/editText1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="22dp"
-        android:src="@drawable/anu3" />
+        android:src="@drawable/anu3"
+        android:layout_gravity="center_horizontal" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -42,7 +49,7 @@
         android:textSize="15dp" />
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
         android:id="@+id/editTextNama"
         android:layout_below="@+id/textViewNama"
@@ -63,7 +70,7 @@
         android:layout_alignParentStart="true" />
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
         android:id="@+id/editTextUmur"
         android:background="#cefcf8"
@@ -85,11 +92,12 @@
 
     <RadioGroup
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="70dp"
         android:layout_below="@+id/textViewJK"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/radioGroup">
+        android:id="@+id/radioGroup"
+        android:background="#fef9c1">
 
         <RadioButton
             android:layout_width="wrap_content"
@@ -118,17 +126,18 @@
         android:textSize="15dp" />
 
     <CheckBox
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Selasa"
         android:id="@+id/checkBoxS"
         android:layout_below="@+id/textViewHari"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:checked="false" />
+        android:checked="false"
+        android:background="#fee6cf" />
 
     <CheckBox
-        android:layout_width="wrap_content"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:text="Kamis"
         android:id="@+id/checkBoxK"
@@ -137,26 +146,60 @@
         android:layout_alignRight="@+id/editTextNama"
         android:layout_alignEnd="@+id/editTextNama"
         android:layout_marginRight="49dp"
-        android:layout_marginEnd="49dp" />
+        android:layout_marginEnd="49dp"
+        android:background="#fee6cf" />
 
     <CheckBox
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sabtu"
         android:id="@+id/checkBoxSa"
         android:layout_below="@+id/checkBoxS"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:checked="false" />
+        android:checked="false"
+        android:background="#fee6cf" />
 
     <CheckBox
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Minggu"
         android:id="@+id/checkBoxM"
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/checkBoxK"
         android:layout_alignStart="@+id/checkBoxK"
-        android:checked="false" />
+        android:checked="false"
+        android:background="#fee6cf" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Materi yang diinginkan"
+            android:id="@+id/textViewMateri"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnermateri"
+            android:background="#fcd2d2" />
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:text="Daftar"
+            android:id="@+id/buttonDaftar"
+            android:layout_gravity="center_horizontal"
+            android:background="#e6c2fe" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil"
+            android:id="@+id/textViewHasil"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15dp" />
+
+    </LinearLayout>
 </RelativeLayout>
 </ScrollView>
