@@ -1,6 +1,6 @@
 # Tugas
 (Galbie Elinour , XIRPL5 , 12 , 4717/1436.070 , SMK TELKOM MALANG)
-Aplikasi ini berguna agar kita dapat mudah mendaftarkan diri dalam les modelling. Yang perlu kita inputkan adalah nama, umur, jenis kelamin, materi yang diinginkan, dan Hari. Untuk deteksi kesalahan isian saya adalah nama belum diisi, nama minimal 3 karakter, umur belum diisi. Terimakasih. (apk:https://drive.google.com/file/d/0B0HgUfqFl7nhV2lhVTNid2w2TkU/view?usp=sharing)
+Aplikasi ini berguna agar kita dapat mudah mendaftarkan diri dalam les modelling tanpa perlu datang ke tempat les tersebut. Yang perlu kita inputkan adalah nama, umur, jenis kelamin, materi yang diinginkan, dan Hari. Untuk deteksi kesalahan isian saya adalah nama belum diisi, nama minimal 3 karakter, umur belum diisi. Terimakasih. (apk:https://drive.google.com/file/d/0B0HgUfqFl7nhV2lhVTNid2w2TkU/view?usp=sharing)
 
 ![1](https://cloud.githubusercontent.com/assets/21336880/18416739/99b0ab4a-7846-11e6-914e-c2c643a176a4.jpg)
 ![2](https://cloud.githubusercontent.com/assets/21336880/18416744/c2899036-7846-11e6-8c83-dfc2d516e4d6.jpg)
