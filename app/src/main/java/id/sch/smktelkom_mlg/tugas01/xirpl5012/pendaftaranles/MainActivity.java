@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -16,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     Button Daftar;
     TextView Hasil,Hasil2;
     RadioButton rbPr,rbLk;
-    RadioGroup rg;
+    CheckBox cBS,cBK,cBSa,cBM;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +31,10 @@ public class MainActivity extends AppCompatActivity {
         Hasil2 = (TextView) findViewById(R.id.textViewHasil2);
         rbPr = (RadioButton) findViewById(R.id.radioButtonPr);
         rbLk = (RadioButton) findViewById(R.id.radioButtonLk);
-        rg = (RadioGroup) findViewById(R.id.radioGroup);
+        cBS = (CheckBox) findViewById(R.id.checkBoxS);
+        cBK = (CheckBox) findViewById(R.id.checkBoxK);
+        cBSa = (CheckBox) findViewById(R.id.checkBoxSa);
+        cBM = (CheckBox) findViewById(R.id.checkBoxM);
 
         Daftar.setOnClickListener(new View.OnClickListener()
         {
@@ -52,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
             hasil = rbPr.getText().toString();
         }
 
-        else if (rbLk.isChecked());
+        else if (rbLk.isChecked())
         {
             hasil = rbLk.getText().toString();
         }
