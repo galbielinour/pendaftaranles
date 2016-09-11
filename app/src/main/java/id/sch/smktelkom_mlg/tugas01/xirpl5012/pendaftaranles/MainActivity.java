@@ -71,7 +71,15 @@ public class MainActivity extends AppCompatActivity {
             Hasil2.setText(" dengan jenis kelamin "+hasil);
         }
 
+        String hsl=" Hari Pilihan Anda :";
+        int startlen = hsl.length();
+        if (cBS.isChecked()) hsl += cBS.getText() + " ";
+        if (cBK.isChecked()) hsl += cBK.getText()+ " ";
+        if (cBSa.isChecked()) hsl += cBSa.getText()+ " ";
+        if (cBM.isChecked()) hsl += cBM.getText()+ " ";
 
+        if (hsl.length()==startlen) hasil += "Tidak ada pilihan";
+        Hasil2.setText( "dengan jenis kelamin "+hasil+"."+ hsl + ".");
     }
 
     private void doProcess() {
