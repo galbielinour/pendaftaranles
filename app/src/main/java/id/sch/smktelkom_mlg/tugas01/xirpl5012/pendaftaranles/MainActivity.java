@@ -7,14 +7,16 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     EditText Nama,Umur;
     Button Daftar;
-    TextView Hasil;
+    TextView Hasil,Hasil2;
     RadioButton rbPr,rbLk;
+    RadioGroup rg;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,8 +27,10 @@ public class MainActivity extends AppCompatActivity {
         Umur = (EditText) findViewById(R.id.editTextUmur);
         Daftar = (Button) findViewById(R.id.buttonDaftar);
         Hasil = (TextView) findViewById(R.id.textViewHasil);
+        Hasil2 = (TextView) findViewById(R.id.textViewHasil2);
         rbPr = (RadioButton) findViewById(R.id.radioButtonPr);
         rbLk = (RadioButton) findViewById(R.id.radioButtonLk);
+        rg = (RadioGroup) findViewById(R.id.radioGroup);
 
         Daftar.setOnClickListener(new View.OnClickListener()
         {
@@ -35,18 +39,12 @@ public class MainActivity extends AppCompatActivity {
             {
                 doProcess();
                 doClick();
-            }
+         }
         });
 
     }
 
     private void doClick() {
-
-
-
-    }
-
-    private void doProcess() {
         String hasil = null;
 
         if (rbPr.isChecked())
@@ -61,13 +59,18 @@ public class MainActivity extends AppCompatActivity {
 
         if (hasil == null)
         {
-            Hasil.setText("Belum memilih Jenis Kelamin");
+            Hasil2.setText("Belum memilih Jenis Kelamin");
         }
 
         else
         {
-            Hasil.setText(" dengan jenis kelamin "+hasil);
+            Hasil2.setText(" dengan jenis kelamin "+hasil);
         }
+
+
+    }
+
+    private void doProcess() {
 
         if (isValid())
         {
