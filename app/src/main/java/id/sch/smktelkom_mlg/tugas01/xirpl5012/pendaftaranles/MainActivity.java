@@ -9,6 +9,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     TextView Hasil,Hasil2;
     RadioButton rbPr,rbLk;
     CheckBox cBS,cBK,cBSa,cBM;
+    Spinner SMateri;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         cBK = (CheckBox) findViewById(R.id.checkBoxK);
         cBSa = (CheckBox) findViewById(R.id.checkBoxSa);
         cBM = (CheckBox) findViewById(R.id.checkBoxM);
+        SMateri = (Spinner) findViewById(R.id.spinnermateri);
 
         Daftar.setOnClickListener(new View.OnClickListener()
         {
@@ -79,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
         if (cBM.isChecked()) hsl += cBM.getText()+ " ";
 
         if (hsl.length()==startlen) hasil += "Tidak ada pilihan";
-        Hasil2.setText( "dengan jenis kelamin "+hasil+"."+ hsl + ".");
+        Hasil2.setText( "dengan jenis kelamin "+hasil+"."+ hsl + "."+" Materi yang anda inginkan "+SMateri.getSelectedItem().toString()+".");
     }
 
     private void doProcess() {
