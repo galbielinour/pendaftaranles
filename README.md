@@ -1,11 +1,11 @@
 # Tugas
 
 ### Identitas
-Nama        = Galbie Elinour
-Kelas       = XIRPL5
-No.Presensi = 12
-NIS         = 4717/1436.070 
-Sekolah     = SMK TELKOM MALANG
+Nama        = Galbie Elinour <br>
+Kelas       = XIRPL5 <br>
+No.Presensi = 12 <br>
+NIS         = 4717/1436.070 <br>
+Sekolah     = SMK TELKOM MALANG <br>
 
 ### Penjelasan
   Aplikasi ini berguna agar kita dapat mudah mendaftarkan diri dalam les modelling tanpa perlu datang ke tempat les tersebut. Yang perlu kita inputkan adalah 
