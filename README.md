@@ -1,6 +1,23 @@
 # Tugas
-(Galbie Elinour , XIRPL5 , 12 , 4717/1436.070 , SMK TELKOM MALANG)
-Aplikasi ini berguna agar kita dapat mudah mendaftarkan diri dalam les modelling tanpa perlu datang ke tempat les tersebut. Yang perlu kita inputkan adalah nama, umur, jenis kelamin, materi yang diinginkan, dan Hari. Untuk deteksi kesalahan isian saya adalah nama belum diisi, nama minimal 3 karakter, umur belum diisi. Terimakasih. (apk:https://drive.google.com/file/d/0B0HgUfqFl7nhV2lhVTNid2w2TkU/view?usp=sharing)
+
+### Identitas
+Nama        = Galbie Elinour 
+Kelas       = XIRPL5 
+No.Presensi = 12 
+NIS         = 4717/1436.070 
+Sekolah     = SMK TELKOM MALANG
+
+### Penjelasan
+  Aplikasi ini berguna agar kita dapat mudah mendaftarkan diri dalam les modelling tanpa perlu datang ke tempat les tersebut. Yang perlu kita inputkan adalah 
+  1. nama (berupa textview)
+  2. umur (textview namun sudah divalidasi agar harus diisi angka)
+  2. jenis kelamin (RadioButton)
+  3. materi yang diinginkan (Spinner)
+  4. Hari (checkbox)
+Dan untuk judul dan seperti judul tidak bisa dirubah menggunakan EditText. Untuk deteksi kesalahan isian saya adalah nama belum diisi, nama minimal 3 karakter, umur belum diisi. Terimakasih.
+
+### Link Apk
+(apk:https://drive.google.com/file/d/0B0HgUfqFl7nhV2lhVTNid2w2TkU/view?usp=sharing)
 
 ![1](https://cloud.githubusercontent.com/assets/21336880/18416739/99b0ab4a-7846-11e6-914e-c2c643a176a4.jpg)
 ![2](https://cloud.githubusercontent.com/assets/21336880/18416744/c2899036-7846-11e6-8c83-dfc2d516e4d6.jpg)
