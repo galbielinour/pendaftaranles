@@ -1,9 +1,9 @@
 # Tugas
 
 ### Identitas
-Nama        = Galbie Elinour 
-Kelas       = XIRPL5 
-No.Presensi = 12 
+Nama        = Galbie Elinour
+Kelas       = XIRPL5
+No.Presensi = 12
 NIS         = 4717/1436.070 
 Sekolah     = SMK TELKOM MALANG
 
